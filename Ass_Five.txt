@@ -1,0 +1,35 @@
+1. An exception is an event, which occurs during the execution of a program, 
+that disrupts the normal flow of the program's instructions and leads to the termination of the program execuiton.
+
+2.Exception handling is an mechanism where we try to handle to event by writing some logic so that our program will not
+terminate and continues the execution.
+
+3.checked exceptions are those which are predicted and seen by the compiler and unchecked exceptions are those which 
+the compiler will not come to know about them. For checked exception compiler will force us to handle them as it can identify them.
+
+error: error is an serious problem and jvm throws an error to indicate  a serious problem.
+we can also catch an error but catching an error will not make a sense.
+Error is also subclass of Throwable class.
+some of the errors are stackOverFlowError, OutOfMemoryError.
+
+4. throw is used to raise an exception
+ throws is used to say  to jvm that the excepiton handling logic will not be here check at the caller.
+
+5.
+Multithreading in Java is a process of executing multiple threads simultaneously.
+
+A thread is a lightweight sub-process, the smallest unit of processing. 
+Multiprocessing and multithreading, both are used to achieve multitasking.
+
+7. we can handle exceptions by making use of try catch blocks. The handling logic will be written
+inside the catch block.
+
+8. A thread is a light weight process it is a single line of execution.
+
+9. one way is extending the Thread class and the other way is by implementing the runnable interface and
+passing the class object that implemented the runnable interface to the thread class constructor.
+At last to make the thread start we should invoke the start() method.
+
+10. In java garbage collection is the process of collecting the objects which are not having any reference
+,data which are no longer needed and then there by freeing the memory
+In other words it is the process of reclaiming the runtime unused memory automatically.
